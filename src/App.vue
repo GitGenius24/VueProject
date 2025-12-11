@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'; 
-import { useCategoryStore } from './stores/categoryStore.js';
-import { useTaskStore } from './stores/taskStore.js';
+import { useCategoryStore } from './Stores/categoryStore.js';
+import { useTaskStore } from './Stores/taskStore.js';
 import TaskList from './components/TaskList.vue';
 import TaskForm from './components/TaskForm.vue';
 import TaskDetails from './components/TaskDetails.vue'; 

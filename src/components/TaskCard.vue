@@ -1,6 +1,6 @@
 <script setup>
-import { useCategoryStore } from '../stores/categoryStore.js';
-import { useTaskStore } from '../stores/taskStore.js';
+import { useCategoryStore } from '../Stores/categoryStore.js';
+import { useTaskStore } from '../Stores/taskStore.js';
 import { computed } from 'vue';
 
 const props = defineProps({

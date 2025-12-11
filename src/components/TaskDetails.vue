@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch, computed } from 'vue';
-import { useTaskStore } from '../stores/taskStore.js';
-import { useCategoryStore } from '../stores/categoryStore.js';
+import { useTaskStore } from '../Stores/taskStore.js';
+import { useCategoryStore } from '../Stores/categoryStore.js';
 import TaskForm from './TaskForm.vue'; 
 
 const taskStore = useTaskStore();

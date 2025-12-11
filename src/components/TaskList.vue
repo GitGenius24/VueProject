@@ -1,5 +1,5 @@
 <script setup>
-import { useTaskStore } from '../stores/taskStore.js';
+import { useTaskStore } from '../Stores/taskStore.js';
 import TaskCard from './TaskCard.vue';
 import { computed } from 'vue';
 
